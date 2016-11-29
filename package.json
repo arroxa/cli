@@ -1,0 +1,29 @@
+{
+  "name": "arroxa",
+  "version": "1.0.0",
+  "description": "Uma aplicação cli para clonar os projetos Arroxa",
+  "main": "./bin/cli.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "author": {
+    "name": "Emerson Thompson",
+    "email": "thompson.emerson@gmail.com",
+    "url": "http://emersonthompson.com.br"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/arroxa/cli",
+  "bugs": {
+    "url": "https://github.com/arroxa/cli/issues"
+  },
+  "homepage": "https://github.com/arroxa/cli#README",
+  "bin": {
+    "arroxa": "./bin/cli.js"
+  },
+  "devDependencies": {
+    "standard": "^8.5.0"
+  },
+  "dependencies": {
+    "inquirer": "^1.2.3"
+  }
+}
